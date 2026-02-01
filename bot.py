@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from handlers.leagues import leagues_handler
 from handlers.apl.menu import apl_menu_handler
 
-BOT_TOKEN = "879341068:AAF16vAvNcEuF9FfbBm2NqrABgJmYYGshBc"  # Telegram bot tokeningiz
+BOT_TOKEN = ""  # Telegram bot tokeningiz
 
 # /start buyrug'iga javob beruvchi handler
 async def start(message: Message):
